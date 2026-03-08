@@ -1,16 +1,121 @@
-# React + Vite
+# 🔎 GitHub User Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-fast-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-green)
 
-Currently, two official plugins are available:
+Aplicação web feita com **React + Vite** que permite buscar usuários do GitHub e visualizar informações do perfil, repositórios e linguagens utilizadas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+# 🌐 Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚧 Em breve disponível online.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# ✨ Funcionalidades
+
+✔ Buscar usuários do GitHub
+✔ Mostrar avatar e bio
+✔ Exibir seguidores
+✔ Listar últimos repositórios
+✔ Mostrar linguagens utilizadas
+✔ Interface responsiva
+✔ Dark / Light Mode
+
+---
+
+# 🛠 Tecnologias
+
+Este projeto foi desenvolvido com:
+
+* ⚛ **React**
+* ⚡ **Vite**
+* 🎨 **CSS**
+* 📊 **Chart.js**
+* 🌐 **GitHub API**
+
+---
+
+# 📂 Estrutura do projeto
+
+```id="o0g0a5"
+src
+ ├ components
+ │  ├ LanguageChart.jsx
+ │  ├ SearchBar.jsx
+ │  └ UserCard.jsx
+ │
+ ├ App.jsx
+ ├ App.css
+ ├ main.jsx
+```
+
+---
+
+# ⚙️ Como rodar o projeto
+
+Clone o repositório:
+
+```bash id="o5ic2g"
+git clone https://github.com/AnnaVitoriavds/github-user-finder.git
+```
+
+Entre na pasta:
+
+```bash id="f2cfok"
+cd github-user-finder
+```
+
+Instale as dependências:
+
+```bash id="79cs9u"
+npm install
+```
+
+Execute o projeto:
+
+```bash id="o2a1my"
+npm run dev
+```
+
+O projeto abrirá em:
+
+```id="krh3ig"
+http://localhost:5173
+```
+
+---
+
+# 📊 API utilizada
+
+Este projeto utiliza a **GitHub REST API** para buscar dados públicos de usuários.
+
+Documentação oficial:
+
+https://docs.github.com/en/rest
+
+---
+
+# 🚀 Melhorias futuras
+
+* 📈 gráfico mais avançado de linguagens
+* 🔍 autocomplete de usuários
+* 💾 histórico de pesquisas
+* 🌐 deploy online
+
+---
+
+# 👩‍💻 Autora
+
+Feito por **Anna Vitória**
+
+GitHub:
+https://github.com/AnnaVitoriavds
+
+---
+
+⭐ Se você gostou do projeto, considere dar um **star no repositório**.
